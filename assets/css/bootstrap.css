@@ -383,7 +383,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -429,7 +429,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.20rem;
 }
 
 h6, .h6 {
@@ -2275,7 +2275,7 @@ textarea.form-control {
 
 .btn {
   display: inline-block;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: #777;
   text-align: center;
@@ -2345,14 +2345,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ee1515;
-  border-color: #ee1515;
+  background-color: #005eb8;
+  border-color: #005eb8;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #ee1515;
-  border-color: #c20e0e;
+  background-color: #005eb8;
+  border-color: #005eb8;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -4069,9 +4069,10 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 0;
-  font-size: 1.25rem;
+  font-size: 2.25rem;
   line-height: inherit;
   white-space: nowrap;
+  margin-top: -30px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -9359,7 +9360,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: "Rajdhani", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 .text-justify {
